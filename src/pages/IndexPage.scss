@@ -1,0 +1,191 @@
+/* Resetting default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Game area container */
+.game-area {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Canvas styles */
+#gameCanvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-image: url("/src/assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* Add other styles as needed */
+}
+
+/* Question container */
+.question {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  font-family: "Press Start 2P", cursive;
+  /* Custom font style for questions */
+}
+
+/* Countdown time */
+.playerTwotext {
+  top: 20px;
+  right: 20px;
+  font-size: 18px;
+  color: #333;
+  font-family: "Press Start 2P", cursive;
+  /* Custom font style for countdown time */
+}
+
+.obstacle {
+  position: absolute;
+  width: 50px;
+  /* Adjust the width as needed */
+  height: 100px;
+  /* Adjust the height as needed */
+}
+
+/* Player info container */
+.middle-wrap-text {
+  position: absolute;
+  bottom: -3px;
+  /* width: calc(50% - 40px); */
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Player text styles */
+.playerOnetext,
+.playerTwotext {
+  font-size: 16px;
+  color: #333;
+  font-family: "Press Start 2P", cursive;
+  /* Custom font style for player info */
+}
+
+.countdown-text {
+  margin: -561px -620px 0 486px;
+  font-size: 32px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.q-card {
+  width: 60%;
+}
+
+.dinasour {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  /* Adjusted to fill the div */
+  background-image: url("/src/assets/dinasour.gif");
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-position: center;
+  /* Centers the image in the div */
+}
+
+.character1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  /* Adjusted to fill the div */
+  background-image: url("/src/assets/character1.gif");
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-position: center;
+  /* Centers the image in the div */
+}
+
+.character2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  /* Adjusted to fill the div */
+  background-image: url("/src/assets/character2.gif");
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-position: center;
+  /* Centers the image in the div */
+}
+
+.character3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  /* Adjusted to fill the div */
+  background-image: url("/src/assets/character3.gif");
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-position: center;
+  /* Centers the image in the div */
+}
+
+.character4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  /* Adjusted to fill the div */
+  background-image: url("/src/assets/character4.gif");
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-position: center;
+  /* Centers the image in the div */
+}
+
+.character5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  /* Adjusted to fill the div */
+  background-image: url("/src/assets/character5.gif");
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-position: center;
+  /* Centers the image in the div */
+}
+
+.character6 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  /* Adjusted to fill the div */
+  background-image: url("/src/assets/character6.gif");
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-position: center;
+  /* Centers the image in the div */
+}
