@@ -1,0 +1,253 @@
+
+    .drawer-header {
+        background-color: #1976D2;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.drawer-toggle {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-image: url('drawer-icon.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.drawer-logo {
+    margin-left: 20px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.drawer-logo:hover {
+    color: rgb(20, 0, 109);
+}
+
+
+.drawer-menu {
+    display: none;
+    background-color: #1976D2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.drawer-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.drawer-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.drawer-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.drawer-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.drawer-footer {
+    background-color:  #1976D2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1976D2;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-edit, .btn-delete {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.btn-edit:hover, .btn-delete:hover {
+    background-color: #333;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+.edit {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit:hover {
+    background-color: #45a049;
+}
+.delete {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete:hover {
+    background-color: #d32f2f;
+}
+
+.dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dialog-content {
+    /* Add styles for the dialog content */
+}
+
+.dialog.show {
+    display: block;
+}
+/* Style for the select element */
+#correctAnswer {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+/* Style for the dropdown arrow */
+#correctAnswer::after {
+    content: '\25BC'; /* Unicode for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Style for the dropdown options */
+#correctAnswer option {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Style for the dropdown when opened */
+#correctAnswer:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+
+
+
+#typeOfQuestion {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+/* Style for the dropdown arrow */
+#typeOfQuestion::after {
+    content: '\25BC'; /* Unicode for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Style for the dropdown options */
+#typeOfQuestion option {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Style for the dropdown when opened */
+#typeOfQuestion:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
